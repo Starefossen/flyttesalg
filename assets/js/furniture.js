@@ -158,7 +158,7 @@ var furniture = [
   ,{
     "title": "Pult"
     ,"name": "Lonnmon / Adils, Ikea"
-    ,"desc": "Lengde: 120 cm, Bredde: 60 cm, Høyde: 74 cm"
+    ,"desc": "Lengde: 130 cm, Bredde: 60 cm, Høyde: 74 cm"
     ,"note": ""
     ,"image": "images/linnmon-adils-bord-small.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/S99932564/"
@@ -170,7 +170,7 @@ var furniture = [
   ,{
     "title": "Pult"
     ,"name": "Lonnmon / Adils, Ikea"
-    ,"desc": "Lengde: 150 cm, Bredde: 75 cm, Høyde: 74 cm"
+    ,"desc": "Lengde: 150 cm, Bredde: 80 cm, Høyde: 74 cm"
     ,"note": ""
     ,"image": "images/linnmon-adils-bord-large.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/S39932623/#/S39932623"
@@ -195,7 +195,7 @@ var furniture = [
     "title": "Kontorstol"
     ,"name": "Fingal, Ikea"
     ,"desc": "Justerbar i høyden, slik at du sitter komfortabelt."
-    ,"note": ""
+    ,"note": "Ikke riktig bilde"
     ,"image": "images/fingal-arbeidsstol.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/90196597/"
     ,"priceOld": 295

@@ -1,7 +1,3 @@
-// NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
-// IT'S ALL JUST JUNK FOR OUR DOCS!
-// ++++++++++++++++++++++++++++++++++++++++++
-
 !function ($) {
   $(function(){
     for(var i = 0; i < furniture.length; i++) {

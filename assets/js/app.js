@@ -1,5 +1,6 @@
 !function ($) {
   $(function(){
+    
     for(var i = 0; i < furniture.length; i++) {
       var f, tmp;
       

@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Flyttesalg</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Vi selger våre møbler!">
+    <meta name="author" content="Hans Kristian Flaatten">
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -45,7 +45,7 @@
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Hjem</a></li>
           <li><a href="#">Om</a></li>
-          <li><a href="mailto:hans@starefossen.com">Kontakt</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#myModal">Kontakt</a></li>
         </ul>
         <h3 class="muted">Flyttesalg</h3>
       </div>
@@ -74,6 +74,39 @@
 
     </div> <!-- /container -->
 
+    <ul class="thumbnails-tmp" style="display:none;">
+      <li class="span4">
+        <div class="thumbnail">
+          <h3 class="title"></h3>
+          <a href='#' target="_blank"><img src="" alt=""></a>
+          <div class="price"></div>
+        </div>
+      </li>
+    </ul>
+  
+    <div class="modal hide fade" id="myModal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Kontakt oss</h3>
+      </div>
+      <div class="modal-body">
+        <address style="float:left; margin-right: 20px;">
+          <strong>Kristin Flaatten</strong><br>
+          Lars Onsagers veg 7<br>
+          Leilighet 14<br>
+          7030 Trondheim<br>
+          <abbr title="Phone">Telefon:</abbr> <a href="tel:40427282">404 27 282</a><br>
+          <abbr title="Email">Epost:</abbr> <a href="mailto:kristin.flaatten@gmail.com">kristin.flaatten@gmail.com</a>
+        </address>         
+        <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lars+Onsagers+veg+7,+Trondheim,+Norge&amp;aq=&amp;sll=63.414244,10.414179&amp;sspn=0.006943,0.021629&amp;ie=UTF8&amp;hq=&amp;hnear=Lars+Onsagers+veg+7,+7030+Trondheim,+S%C3%B8r-Tr%C3%B8ndelag,+Norway&amp;t=m&amp;ll=63.422029,10.400963&amp;spn=0.023041,0.051498&amp;z=13&amp;output=embed"></iframe>
+        <p style="text-align:right;"><a style="clear:both" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lars+Onsagers+veg+7,+Trondheim,+Norge&amp;aq=&amp;sll=63.414244,10.414179&amp;sspn=0.006943,0.021629&amp;ie=UTF8&amp;hq=&amp;hnear=Lars+Onsagers+veg+7,+7030+Trondheim,+S%C3%B8r-Tr%C3%B8ndelag,+Norway&amp;t=m&amp;ll=63.422029,10.400963&amp;spn=0.023041,0.051498&amp;z=13" style="color:#0000FF;text-align:left">[Stort kart]</a></p>
+      </div>
+      <div class="modal-footer">
+        <!-- <a href="#" class="btn">Close</a> -->
+        <!-- <a href="#" class="btn btn-primary">Save changes</a> -->
+      </div>
+    </div>
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -92,16 +125,6 @@
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script src="assets/js/furniture.js"></script>
     <script src="assets/js/app.js"></script>
-  
-    <ul class="thumbnails-tmp" style="display:none;">
-      <li class="span4">
-        <div class="thumbnail">
-          <h3 class="title"></h3>
-          <a href='#' target="_blank"><img src="" alt=""></a>
-          <div class="price"></div>
-        </div>
-      </li>
-    </ul>
-  
+    
   </body>
 </html>

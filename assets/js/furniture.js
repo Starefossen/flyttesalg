@@ -24,6 +24,18 @@ var furniture = [
     ,"stock": 1
   }
   ,{
+    "title": "Seng"
+    ,"name": "Sultan Singås, Ikea"
+    ,"desc": "Lengde: 200 cm, Bredde: 90 cm, Tykkelse: 25 cm"
+    ,"note": "Ben (kr 125,-) er inkludert i prisen"
+    ,"image": "images/sultan-singaas-rammemadrass.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/30152493/"
+    ,"priceOld": 1195
+    ,"priceNew": 600
+    ,"sold": 0
+    ,"stock": 2
+  }
+  ,{
     "title": "Bord og 4 stoler"
     ,"name": "Jokkmokko, Ikea"
     ,"desc": "Massiv furu; et naturlig materiale som bare blir vakrere med tiden."
@@ -94,18 +106,6 @@ var furniture = [
     ,"priceNew": 100
     ,"sold": 0
     ,"stock": 1
-  }
-  ,{
-    "title": "Seng"
-    ,"name": "Sultan Singås, Ikea"
-    ,"desc": "Lengde: 200 cm, Bredde: 90 cm, Tykkelse: 25 cm"
-    ,"note": "Ben (kr 125,-) er inkludert i prisen"
-    ,"image": "images/sultan-singaas-rammemadrass.jpg"
-    ,"url": "http://www.ikea.com/no/no/catalog/products/30152493/"
-    ,"priceOld": 1195
-    ,"priceNew": 600
-    ,"sold": 0
-    ,"stock": 2
   }
   ,{
     "title": "Kommode"

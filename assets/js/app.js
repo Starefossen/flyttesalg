@@ -19,7 +19,7 @@
       tmp.appendTo('ul.thumbnails');
       
       if (f.sold === f.stock) {
-        tmp.find('div').addClass('sold');
+        tmp.addClass('sold');
         tmp.find('div > .price').html('<strong>SOLGT!</strong>');
       } else {
         var p = Math.round(f.priceOld-f.priceNew);    

@@ -12,7 +12,11 @@ body {
     margin: 30px 0;
 }
 
-.thumbnail.sold {
+.thumbnails.nosold > li.sold {
+  display: none;
+}
+
+.thumbnails > li.sold > .thumbnail {
   opacity: .4;
 }
 

@@ -8,11 +8,11 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/S09875657/#/S69840387"
     ,"priceOld": 2090
     ,"priceNew": 900
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
-    "title": "3-seter sofa"
+    "title": "3-seters sofa"
     ,"name": "Karlstad, Ikea"
     ,"desc": "Bredde: 205 cm, Dybde: 93 cm, Høyde: 80 cm"
     ,"note": ""
@@ -20,7 +20,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/S09875681/#/S19894146"
     ,"priceOld": 3590
     ,"priceNew": 1900
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -32,7 +32,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/50211104/"
     ,"priceOld": 895
     ,"priceNew": 450
-    ,"bid": 0
+    ,"sold": 1
     ,"stock": 1
   }
   ,{
@@ -44,7 +44,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/20135300/#/60135299"
     ,"priceOld": 249
     ,"priceNew": 150
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -56,7 +56,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/10103088/"
     ,"priceOld": 998
     ,"priceNew": 400
-    ,"bid": 0
+    ,"sold": 1
     ,"stock": 1
   }
   ,{
@@ -68,31 +68,31 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/20110540/"
     ,"priceOld": 98
     ,"priceNew": 50
-    ,"bid": 0
+    ,"sold": 4
     ,"stock": 4
   }
   ,{
     "title": "Bokhylle"
     ,"name": "Billy, Ikea"
-    ,"desc": "Smalere hyller lar deg utnytte veggplassen effektivt de fleste steder, selv om det er trangt."
+    ,"desc": "Bredde: 40 cm, Dybde: 28 cm, Høyde: 202 cm"
     ,"note": ""
     ,"image": "images/billy-bokhylle.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/40085714/"
     ,"priceOld": 265
     ,"priceNew": 150
-    ,"bid": 0
+    ,"sold": 2
     ,"stock": 2
   }
   ,{
     "title": "DVD-søyle"
     ,"name": "Benno, Ikea"
-    ,"desc": "Smalere hyller lar deg utnytte veggplassen effektivt de fleste steder, selv om det er trangt."
+    ,"desc": "Bredde: 20 cm, Dybde: 17 cm, Høyde: 202 cm"
     ,"note": ""
     ,"image": "images/benno-dvd.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/07305310/"
     ,"priceOld": 198
     ,"priceNew": 100
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -104,31 +104,31 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/30152493/"
     ,"priceOld": 1195
     ,"priceNew": 600
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 2
   }
   ,{
     "title": "Kommode"
     ,"name": "Malm, Ikea"
-    ,"desc": "Kan også brukes som nattbord. Ekstra romslige skuffer - mer plass til oppbevaring."
+    ,"desc": "Bredde: 40 cm, Dybde: 48 cm, Høyde: 55 cm"
     ,"note": ""
     ,"image": "images/malm-kommode.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/90053918/"
     ,"priceOld": 375
     ,"priceNew": 150
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
     "title": "Kommode"
     ,"name": "Goliat, Ikea"
-    ,"desc": "Hjul gjør den enkel å flytte dit den trengs."
+    ,"desc": "Bredde: 41 cm, Dybde: 40 cm, Høyde: 58 cm"
     ,"note": ""
     ,"image": "images/goliat-kommode.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/40103685/"
     ,"priceOld": 259
     ,"priceNew": 150
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -140,7 +140,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/20154591/#/20154591"
     ,"priceOld": 329
     ,"priceNew": 150
-    ,"bid": 0
+    ,"sold": 2
     ,"stock": 2
   }
   ,{
@@ -152,7 +152,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/60145137/"
     ,"priceOld": 149
     ,"priceNew": 100
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -164,7 +164,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/S99932564/"
     ,"priceOld": 265
     ,"priceNew": 100
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -176,7 +176,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/S39932623/#/S39932623"
     ,"priceOld": 415
     ,"priceNew": 200
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -188,7 +188,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/60152458/"
     ,"priceOld": 89
     ,"priceNew": 50
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
   ,{
@@ -200,7 +200,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/90196597/"
     ,"priceOld": 295
     ,"priceNew": 150
-    ,"bid": 0
+    ,"sold": 0
     ,"stock": 1
   }
 ];

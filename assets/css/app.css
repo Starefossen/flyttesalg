@@ -16,6 +16,10 @@ body {
   opacity: .4;
 }
 
+.thumbnail.selected {
+  background-color: #d9edf7;
+}
+
 .thumbnail > .title {
   margin: 0px;
   padding: 1px;

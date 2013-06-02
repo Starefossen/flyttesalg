@@ -16,21 +16,27 @@
       tmp.find('div > a').attr('href', f.url).attr('title', f.title);
       tmp.find('div > a > img').attr('src', f.image).attr('alt', f.title);
       
-      var p = Math.round(f.priceOld-f.priceNew);
-      
-      tmp.find('div > .price').html('<strong>' + f.priceNew + ',-</strong> stk. (spar ' + p + ',-)');
-      tmp.find('div > .title').html(f.title + (f.stock > 1 ? ' (' + f.stock + ' stk)': ''));
+      tmp.find('div > .title').html(
+        f.title + (f.stock > 1 ? ' (' + f.stock + ' stk)': '')
+      );
       tmp.appendTo('ul.thumbnails');
       
-      tmp.popover({
-        title: f.name
-        ,content: f.desc
-        ,trigger: 'hover'
-        ,placement: 'bottom'
-        /* ,placement: (i%3 === 2 ? 'left' : 'right') */
-        ,container: 'body'
-      });
-      
+      if (f.sold === f.stock) {
+        tmp.find('div').addClass('sold');
+        tmp.find('div > .price').html('<strong>SOLGT!</strong>');
+      } else {
+        var p = Math.round(f.priceOld-f.priceNew);    
+        tmp.find('div > .price').html(
+          '<strong>' + f.priceNew + ',-</strong> stk. (spar ' + p + ',-)'
+        );
+        tmp.popover({
+          title: f.name
+          ,content: f.desc
+          ,trigger: 'hover'
+          ,placement: 'bottom'
+          ,container: 'body'
+        });
+      }
     }    
   });
 }(window.jQuery)

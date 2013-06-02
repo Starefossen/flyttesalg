@@ -195,12 +195,36 @@ var furniture = [
     "title": "Kontorstol"
     ,"name": "Fingal, Ikea"
     ,"desc": "Justerbar i høyden, slik at du sitter komfortabelt."
-    ,"note": "Ikke riktig bilde"
-    ,"image": "images/fingal-arbeidsstol.jpg"
+    ,"note": ""
+    ,"image": "images/ukjent-kontorstol.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/90196597/"
     ,"priceOld": 295
     ,"priceNew": 150
     ,"sold": 0
     ,"stock": 1
+  }
+  ,{
+    "title": "Speil"
+    ,"name": "Ikea"
+    ,"desc": "Bredde: 40 cm, Høyde: 97 cm"
+    ,"note": ""
+    ,"image": "images/ukjent-speil.jpg"
+    ,"url": "#"
+    ,"priceOld": 165
+    ,"priceNew": 50
+    ,"sold": 0
+    ,"stock": 1
+  }
+  ,{
+    "title": "Skostativ"
+    ,"name": "Ikea"
+    ,"desc": "Lengde: 88 cm, Bredde: 33 cm, Høyde: 37 cm"
+    ,"note": ""
+    ,"image": "images/ukjent-skostativ.jpg"
+    ,"url": "#"
+    ,"priceOld": 199
+    ,"priceNew": 100
+    ,"sold": 0
+    ,"stock": 2
   }
 ];

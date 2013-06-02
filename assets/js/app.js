@@ -13,11 +13,12 @@
       }
       
       tmp = $('ul.thumbnails-tmp li').clone();
+      tmp.find('div > a').attr('href', f.url).attr('title', f.title);
       tmp.find('div > a > img').attr('src', f.image).attr('alt', f.title);
       
       var p = Math.round(f.priceOld-f.priceNew);
       
-      tmp.find('div > .price').html('kr <strong>' + f.priceNew + ',-</strong> (spar kr ' + p + ',-)');
+      tmp.find('div > .price').html('<strong>' + f.priceNew + ',-</strong> stk. (spar ' + p + ',-)');
       tmp.find('div > .title').html(f.title + (f.stock > 1 ? ' (' + f.stock + ' stk)': ''));
       tmp.appendTo('ul.thumbnails');
       
@@ -25,7 +26,8 @@
         title: f.name
         ,content: f.desc
         ,trigger: 'hover'
-        ,placement: (i%2 === 0 ? 'right' : 'left')
+        ,placement: 'bottom'
+        /* ,placement: (i%3 === 2 ? 'left' : 'right') */
         ,container: 'body'
       });
       

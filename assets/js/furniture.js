@@ -2,7 +2,7 @@ var furniture = [
   {
     "title": "Lenestol"
     ,"name": "Karlstad, Ikea"
-    ,"desc": "Lett å holde ren - avtagbart og maskinvaskbart trekk. Seteputer av polyeter og polyesterfibervatt gir god sittekomfort."
+    ,"desc": "Bredde: 91 cm, Dybde: 93 cm, Høyde: 80 cm"
     ,"note": ""
     ,"image": "images/karlstad-lenestol.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/S09875657/#/S69840387"
@@ -14,7 +14,7 @@ var furniture = [
   ,{
     "title": "3-seter sofa"
     ,"name": "Karlstad, Ikea"
-    ,"desc": "Lett å holde ren - avtagbart og maskinvaskbart trekk. Seteputer av polyeter og polyesterfibervatt gir god sittekomfort."
+    ,"desc": "Bredde: 205 cm, Dybde: 93 cm, Høyde: 80 cm"
     ,"note": ""
     ,"image": "images/karlstad-sofa.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/S09875681/#/S19894146"
@@ -38,7 +38,7 @@ var furniture = [
   ,{
     "title": "Hylle 2x2"
     ,"name": "Expedit, Ikea"
-    ,"desc": "Kan henges på veggen eller plasseres på gulvet, velg det som passer dine behov best."
+    ,"desc": "Bredde: 79 cm, Dybde: 39 cm, Høyde: 79 cm"
     ,"note": ""
     ,"image": "images/expedit-hylle-2x2.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/20135300/#/60135299"
@@ -50,7 +50,7 @@ var furniture = [
   ,{
     "title": "Hylle 2x4"
     ,"name": "Expedit, Ikea"
-    ,"desc": "Kan henges på veggen eller plasseres på gulvet, velg det som passer dine behov best."
+    ,"desc": "Bredde: 79 cm, Dybde: 39 cm, Høyde: 149 cm"
     ,"note": "Noen synelige hakk/merker på den ene siden."
     ,"image": "images/expedit-hylle-2x4.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/10103088/"
@@ -60,9 +60,9 @@ var furniture = [
     ,"stock": 1
   }
   ,{
-    "title": "Hylle-kurv"
+    "title": "Kurv"
     ,"name": "Knipsa, Ikea"
-    ,"desc": "Denne kurven er perfekt til oppbevaring av aviser, tidsskrift, bilder eller andre minner."
+    ,"desc": "Bredde: 32 cm, Dybde: 33 cm, Høyde: 32 cm. Laget for Expedit hyllene."
     ,"note": "Passer kjempefint i begge hyllene."
     ,"image": "images/knipsa-kurv.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/20110540/"
@@ -98,7 +98,7 @@ var furniture = [
   ,{
     "title": "Seng"
     ,"name": "Sultan Singås, Ikea"
-    ,"desc": "Pocketfjærer gir kroppen nøyaktig støtte. Et nedre lag med fjærer øker komforten ytterligere."
+    ,"desc": "Lengde: 200 cm, Bredde: 90 cm, Tykkelse: 25 cm"
     ,"note": "Ben (kr 125,-) er inkludert i prisen"
     ,"image": "images/sultan-singaas-rammemadrass.jpg"
     ,"url": "http://www.ikea.com/no/no/catalog/products/30152493/"
@@ -132,38 +132,74 @@ var furniture = [
     ,"stock": 1
   }
   ,{
-    "title": "foo"
-    ,"name": "Ikea"
-    ,"desc": ""
+    "title": "Hylle"
+    ,"name": "Mogler, Ikea"
+    ,"desc": "De åpne hyllene gir enkelt oversikt og er enkle å nå."
     ,"note": ""
-    ,"image": "images/foo"
-    ,"url": "foo"
-    ,"priceOld": 0
-    ,"priceNew": 0
+    ,"image": "images/molger-hylle.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/20154591/#/20154591"
+    ,"priceOld": 329
+    ,"priceNew": 150
+    ,"bid": 0
+    ,"stock": 2
+  }
+  ,{
+    "title": "Gulvlampe"
+    ,"name": "Not, Ikea"
+    ,"desc": "Gir både allmennbelysning og lesebelysning - lampene kan tennes hver for seg."
+    ,"note": ""
+    ,"image": "images/not-lampe.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/60145137/"
+    ,"priceOld": 149
+    ,"priceNew": 100
     ,"bid": 0
     ,"stock": 1
   }
   ,{
-    "title": "foo"
-    ,"name": "Ikea"
-    ,"desc": ""
+    "title": "Pult"
+    ,"name": "Lonnmon / Adils, Ikea"
+    ,"desc": "Lengde: 120 cm, Bredde: 60 cm, Høyde: 74 cm"
     ,"note": ""
-    ,"image": "images/foo"
-    ,"url": "foo"
-    ,"priceOld": 0
-    ,"priceNew": 0
+    ,"image": "images/linnmon-adils-bord-small.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/S99932564/"
+    ,"priceOld": 265
+    ,"priceNew": 100
     ,"bid": 0
     ,"stock": 1
   }
   ,{
-    "title": "foo"
-    ,"name": "Ikea"
-    ,"desc": ""
+    "title": "Pult"
+    ,"name": "Lonnmon / Adils, Ikea"
+    ,"desc": "Lengde: 150 cm, Bredde: 75 cm, Høyde: 74 cm"
     ,"note": ""
-    ,"image": "images/foo"
-    ,"url": "foo"
-    ,"priceOld": 0
-    ,"priceNew": 0
+    ,"image": "images/linnmon-adils-bord-large.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/S39932623/#/S39932623"
+    ,"priceOld": 415
+    ,"priceNew": 200
+    ,"bid": 0
+    ,"stock": 1
+  }
+  ,{
+    "title": "Leselampe"
+    ,"name": "Kvart, Ikea"
+    ,"desc": "Fokusert lys, gir en god, konsentrert lysstråle å lese i. Fleksibel lampearm gir fleksibelt lys."
+    ,"note": ""
+    ,"image": "images/kvart-lampe.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/60152458/"
+    ,"priceOld": 89
+    ,"priceNew": 50
+    ,"bid": 0
+    ,"stock": 1
+  }
+  ,{
+    "title": "Kontorstol"
+    ,"name": "Fingal, Ikea"
+    ,"desc": "Justerbar i høyden, slik at du sitter komfortabelt."
+    ,"note": ""
+    ,"image": "images/fingal-arbeidsstol.jpg"
+    ,"url": "http://www.ikea.com/no/no/catalog/products/90196597/"
+    ,"priceOld": 295
+    ,"priceNew": 150
     ,"bid": 0
     ,"stock": 1
   }

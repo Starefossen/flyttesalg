@@ -8,7 +8,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/S09875657/#/S69840387"
     ,"priceOld": 2090
     ,"priceNew": 900
-    ,"sold": 0
+    ,"sold": 1
     ,"stock": 1
   }
   ,{
@@ -20,7 +20,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/S09875681/#/S19894146"
     ,"priceOld": 3590
     ,"priceNew": 1900
-    ,"sold": 0
+    ,"sold": 1
     ,"stock": 1
   }
   ,{
@@ -104,7 +104,7 @@ var furniture = [
     ,"url": "http://www.ikea.com/no/no/catalog/products/07305310/"
     ,"priceOld": 198
     ,"priceNew": 100
-    ,"sold": 0
+    ,"sold": 1
     ,"stock": 1
   }
   ,{
@@ -212,7 +212,7 @@ var furniture = [
     ,"url": "#"
     ,"priceOld": 165
     ,"priceNew": 50
-    ,"sold": 0
+    ,"sold": 1
     ,"stock": 1
   }
   ,{
